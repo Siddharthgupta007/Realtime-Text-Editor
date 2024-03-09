@@ -52,7 +52,7 @@ const Editor = () => {
   //for connnection event
 
   useEffect(() => {
-    const socketserver = io("https://google-docs-brown.vercel.app/")
+    const socketserver = io("http://localhost:8000")
     setSocket(socketserver);
     return () => {
       socketserver.disconnect();
