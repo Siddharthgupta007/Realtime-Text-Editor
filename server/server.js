@@ -1,6 +1,8 @@
  import { Server} from "socket.io";
  import Connection from "./databse/db.js";
- import { Express } from "express";
+
+ import express from 'express'
+ 
  import { createServer } from "http";
 
  import { getDocument, updateDocument } from "./controller/document-controller.js";
