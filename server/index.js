@@ -8,7 +8,7 @@
 
  const io = new Server( 8000, {
     cors:{
-        origin: "https://google-docs-front-sid.vercel.app",
+        origin: "https://65ec737ac242b3b10db7002e--superb-mooncake-eff536.netlify.app/",
         methods: ['GET', 'POST']
     }
  });
