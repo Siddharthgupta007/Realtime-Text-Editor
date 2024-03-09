@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
 
-const Connection = async (username = 'doc', password = 'googledoc') => {
-    const URL = `mongodb+srv://${username}:${password}@googledocsclone.vcdne1y.mongodb.net/?retryWrites=true&w=majority&appName=googleDocsClone`
+const Connection = async (URL) => {
+    // const URL = `mongodb+srv://doc:googledoc@googledocsclone.vcdne1y.mongodb.net/?retryWrites=true&w=majority&appName=googleDocsClone`
 
     try{
        await mongoose.connect(URL, {useUnifiedTopology: true, useNewUrlParser: true});
