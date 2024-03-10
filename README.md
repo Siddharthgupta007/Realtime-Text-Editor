@@ -1,5 +1,7 @@
 # Google Docs using Socket.io
 
+![ezgif-5-da70f4126d](https://github.com/Siddharthgupta007/Google-Docs/assets/118587047/432fc8b7-2a7e-47e1-8bd7-7f1d1825d1f6)
+
 
 ## Overview
 
