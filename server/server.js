@@ -9,7 +9,7 @@
 
  const PORT = process.env.PORT || 8000;
 
- const URL = process.env.MONGODB_URL ||  `mongodb+srv://doc:googledoc@googledocsclone.vcdne1y.mongodb.net/?retryWrites=true&w=majority&appName=googleDocsClone`
+ const URL = process.env.MONGODB_URL 
  Connection(URL);
 
 //  const app = express();
