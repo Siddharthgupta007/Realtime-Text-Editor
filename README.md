@@ -7,7 +7,7 @@
 
 A Google Docs Clone, Having features like Live reatime collaboration(CRUD) on same doc file And saving the data in database so that you don't have to worry about data.
 
- **Live-Link**: Soon(Heroku not working)
+ **Live-Link**: https://google-docs-sid.netlify.app
    
 
 ## Technology
