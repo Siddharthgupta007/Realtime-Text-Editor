@@ -12,17 +12,23 @@
  const URL = process.env.MONGODB_URL ||  `mongodb+srv://doc:googledoc@googledocsclone.vcdne1y.mongodb.net/?retryWrites=true&w=majority&appName=googleDocsClone`
  Connection(URL);
 
- const app = express();
+//  const app = express();
 
- if(process.env.NODE_ENV === 'production'){
-    app.use(express.static('client/build'));
- }
+//  if(process.env.NODE_ENV === 'production'){
+//     app.use(express.static('../client/build'));
+//  }
 
- const httpServer = createServer(app);
- httpServer.listen(PORT);
+//  const httpServer = createServer(app);
+//  httpServer.listen(PORT);
 
 
- const io = new Server(httpServer);
+//  const io = new Server(httpServer);
+const io = new Server(PORT, {
+    cors: {
+        origin: process.env.FRONT || 'http://localhost:5173',
+        methods: ['GET', 'POST']
+    }
+});
 
  io.on('connection', socket => {
      socket.on ('get-document', async documentId =>{

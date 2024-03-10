@@ -52,7 +52,7 @@ const Editor = () => {
   //for connnection event
 
   useEffect(() => {
-    const socketserver = io('')
+    const socketserver = io( import.meta.env.VITE_BACKEND ||  'http://localhost:8000')
     setSocket(socketserver);
     return () => {
       socketserver.disconnect();
