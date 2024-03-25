@@ -1,11 +1,13 @@
 # Google Docs using Socket.io
 
+![ezgif-5-da70f4126d](https://github.com/Siddharthgupta007/Google-Docs/assets/118587047/432fc8b7-2a7e-47e1-8bd7-7f1d1825d1f6)
+
 
 ## Overview
 
 A Google Docs Clone, Having features like Live reatime collaboration(CRUD) on same doc file And saving the data in database so that you don't have to worry about data.
 
- **Live-Link**: Soon(Heroku not working)
+ **Live-Link**: https://google-docs-sid.netlify.app
    
 
 ## Technology
