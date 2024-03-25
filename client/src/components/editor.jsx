@@ -75,7 +75,7 @@ const Editor = () => {
     quill && quill.on('text-change', handlechange);
 
     return () => {
-      quill && quill.off('text-change', handlechange);
+      quill && quill.off('text-change', handlechange``);
     }
   }, [quill, socket]);
 
